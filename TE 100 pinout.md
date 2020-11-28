@@ -4,6 +4,7 @@ The 100 pin connector in the expansion port is a TE 1-1734099-0
 These connectors can be purchased easily:
 
 https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1-1734099-0/1121334
+
 https://www.ebay.com/itm/TE-1-1734099-0-100-Pos-RT-Angle-Thu-Hole-Board-to-Board-Connector-Plug-QTY-5/163591113538?hash=item2616ca4b42:g:IdEAAOSwkJNchlRM
 
 ## Pin Out
