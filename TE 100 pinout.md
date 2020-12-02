@@ -10,6 +10,7 @@ https://www.ebay.com/itm/TE-1-1734099-0-100-Pos-RT-Angle-Thu-Hole-Board-to-Board
 Information gathered from EEVBlog:
 https://www.eevblog.com/forum/testgear/reverse-engineering-tektronix-tds3gv-module-for-tds3000-series-oscilloscopes/50/
 https://hackaday.io/project/172242-extension-card-for-tds3000-scopes/log/179520-the-actual-informations
+https://www.eevblog.com/forum/repair/tektronix-tds3012b-repair-help-needed/
 
 
 ## Pin Out
