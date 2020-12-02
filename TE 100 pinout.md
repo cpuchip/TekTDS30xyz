@@ -27,7 +27,6 @@ https://hackaday.io/project/172242-extension-card-for-tds3000-scopes/log/179520-
 | 10  | GND           |                    |                    |
 | 11  |               |                    |                    |
 | 12  | 3v3           | Power 3.3V         |                    |
-| 12  |               |                    |                    |
 | 13  | SMTXD1        | Serial 38400,n,8,1 |                    |
 | 14  | SMRXD1        | Serial 38400,n,8,1 |                    |
 | 15  | SNI_TX        | Ethernet           |                    |
@@ -40,9 +39,9 @@ https://hackaday.io/project/172242-extension-card-for-tds3000-scopes/log/179520-
 | 22  | SNI_RCLK      | Ethernet | /INT??  |                    |
 | 23  | *IOIS16       |                    |                    |
 | 24  | CARD_INSERTED | 5k to GND for 3GM  |                    |
-| 25  |               |                    |                    |
-| 26  | *REG          | Attribute Mem Sel  |                    |
-| 27  |               |                    |                    |
+| 25  | *WAIT??       |                    |                    |
+| 26  | *REG/*ALE??   | Attribute Mem Sel  |                    |
+| 27  | A20??         |                    |                    |
 | 28  | A19           |                    |                    |
 | 29  | A18           |                    |                    |
 | 30  | A17           |                    |                    |
@@ -89,7 +88,7 @@ https://hackaday.io/project/172242-extension-card-for-tds3000-scopes/log/179520-
 | 71  | CTS           | Serial             |                    |
 | 72  | 5v            | Power 5v           |                    |
 | 73  | *INT          |                    |                    |
-| 74  |               |                    |                    |
+| 74  | *OE??         |                    |                    |
 | 75  | *IOWR         | IO Write??         |                    |
 | 76  | *IORD         | IO Read            |                    |
 | 77  | *TA           | Transfer Ack ???   |                    |
