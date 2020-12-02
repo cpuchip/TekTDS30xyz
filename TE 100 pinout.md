@@ -26,7 +26,7 @@ https://www.eevblog.com/forum/repair/tektronix-tds3012b-repair-help-needed/
 | 8   | Red_2         | Screen Red bit 2   |                    |
 | 9   | Red_3         | Screen Red bit 3   |                    |
 | 10  | GND           |                    |                    |
-| 11  |               |                    |                    |
+| 11  | EXT_CLK       | *CE of DS1742      |                    |
 | 12  | 3v3           | Power 3.3V         |                    |
 | 13  | SMTXD1        | Serial 38400,n,8,1 |                    |
 | 14  | SMRXD1        | Serial 38400,n,8,1 |                    |
@@ -37,21 +37,21 @@ https://www.eevblog.com/forum/repair/tektronix-tds3012b-repair-help-needed/
 | 19  | SNI_RENA      | Ethernet           |                    |
 | 20  | SNI_TCLK      | Ethernet           |                    |
 | 21  | GND           |                    |                    |
-| 22  | SNI_RCLK      | Ethernet | /INT??  |                    |
-| 23  | *IOIS16       |                    |                    |
-| 24  | CARD_INSERTED | 5k to GND for 3GM  |                    |
-| 25  | *WAIT??       |                    |                    |
-| 26  | *REG/*ALE??   | Attribute Mem Sel  |                    |
-| 27  | A20??         |                    |                    |
-| 28  | A19           |                    |                    |
-| 29  | A18           |                    |                    |
-| 30  | A17           |                    |                    |
-| 31  | A16           |                    |                    |
-| 32  | GND           |                    |                    |
-| 33  | A15           |                    |                    |
-| 34  | A14           |                    |                    |
-| 35  | A13           |                    |                    |
-| 36  | A12           |                    |                    |
+| 22  | SNI_RCLK      | Ethernet           |                    |
+| 23  | U730.10       |                    |                    |
+| 24  | CARD_DETECT   | 5k to GND for 3GM  |                    |
+| 25  | U830.3        |                    |                    |
+| 26  | *TSIZ1        |                    |                    |
+| 27  | *TSIZ2        |                    |                    |
+| 28  | A19           | Address Bus        |                    |
+| 29  | A18           | Address Bus        |                    |
+| 30  | A17           | Address Bus        |                    |
+| 31  | A16           | Address Bus        |                    |
+| 32  | GND           | Address Bus        |                    |
+| 33  | A15           | Address Bus        |                    |
+| 34  | A14           | Address Bus        |                    |
+| 35  | A13           | Address Bus        |                    |
+| 36  | A12           | Address Bus        |                    |
 | 37  | A11           | Address Bus        |                    |
 | 38  | GND           |                    |                    |
 | 39  | A10           | Address Bus        |                    |
@@ -88,31 +88,31 @@ https://www.eevblog.com/forum/repair/tektronix-tds3012b-repair-help-needed/
 | 70  | RTS           | Serial             |                    |
 | 71  | CTS           | Serial             |                    |
 | 72  | 5v            | Power 5v           |                    |
-| 73  | *INT          |                    |                    |
-| 74  | *OE??         |                    |                    |
-| 75  | *IOWR         | IO Write??         |                    |
-| 76  | *IORD         | IO Read            |                    |
-| 77  | *TA           | Transfer Ack ???   |                    |
+| 73  | IRQ4          |                    |                    |
+| 74  | *WE0          |                    |                    |
+| 75  | *WE1          |                    |                    |
+| 76  | *OE           | Output Enable      |                    |
+| 77  | *TA           | Transfer Ack       |                    |
 | 78  | *CE1          | Select GPIB ctrlr  |                    |
 | 79  | *CE2          | Sel. card Type     |                    |
 | 80  | GND           |                    |                    |
 | 81  | R/W           | Read/Write         |                    |
-| 82  | D0            | Data Bus           |                    |
-| 83  | D1            | Data Bus           |                    |
-| 84  | D2            | Data Bus           |                    |
-| 85  | D3            | Data Bus           |                    |
+| 82  | D15           | Data Bus PPC MSB   |                    |
+| 83  | D14           | Data Bus           |                    |
+| 84  | D13           | Data Bus           |                    |
+| 85  | D12           | Data Bus           |                    |
 | 86  | GND           |                    |                    |
-| 87  | D4            | Data Bus           |                    |
-| 88  | D5            | Data Bus           |                    |
-| 89  | D6            | Data Bus           |                    |
-| 90  | D7            | Data Bus           |                    |
+| 87  | D11           | Data Bus           |                    |
+| 88  | D10           | Data Bus           |                    |
+| 89  | D9            | Data Bus           |                    |
+| 90  | D8            | Data Bus           |                    |
 | 91  | GND           |                    |                    |
-| 92  | D8            | Data Bus           |                    |
-| 93  | D9            | Data Bus           |                    |
-| 94  | D10           | Data Bus           |                    |
-| 95  | D11           | Data Bus           |                    |
+| 92  | D7            | Data Bus           |                    |
+| 93  | D6            | Data Bus           |                    |
+| 94  | D5            | Data Bus           |                    |
+| 95  | D4            | Data Bus           |                    |
 | 96  | GND           |                    |                    |
-| 97  | D12           | Data Bus           |                    |
-| 98  | D13           | Data Bus           |                    |
-| 99  | D14           | Data Bus           |                    |
-| 100 | D15           | Data Bus           |                    |
+| 97  | D3            | Data Bus           |                    |
+| 98  | D2            | Data Bus           |                    |
+| 99  | D1            | Data Bus           |                    |
+| 100 | D0            | Data Bus           |                    |
