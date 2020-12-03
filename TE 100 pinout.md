@@ -41,8 +41,8 @@ https://www.eevblog.com/forum/repair/tektronix-tds3012b-repair-help-needed/
 | 23  | U730.10       |                    |                    |
 | 24  | CARD_DETECT   | 5k to GND for 3GM  |                    |
 | 25  | U830.3        |                    |                    |
-| 26  | *TSIZ1        |                    |                    |
-| 27  | *TSIZ2        |                    |                    |
+| 26  | *TSIZ0 or *REG|                    | B9??               |
+| 27  | *TSIZ1        |                    | C9??               |
 | 28  | A19           | Address Bus        |                    |
 | 29  | A18           | Address Bus        |                    |
 | 30  | A17           | Address Bus        |                    |
@@ -80,8 +80,8 @@ https://www.eevblog.com/forum/repair/tektronix-tds3012b-repair-help-needed/
 | 62  | TDO           | JTAG               | G17                |
 | 63  | TDI           | JTAG               | H17                |
 | 64  | TCK           | JTAG               | H16                |
-| 65  | SRESET        |                    |                    |
-| 66  | *RST          | Scope Reset        |                    |
+| 65  | SRESET        |                    | P2??               |
+| 66  | HRST          | Scope Reset        | N4??               |
 | 67  | GND           |                    |                    |
 | 68  | TxD           | Serial             |                    |
 | 69  | RxD           | Serial             |                    |
