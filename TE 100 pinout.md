@@ -76,12 +76,12 @@ https://www.eevblog.com/forum/repair/tektronix-tds3012b-repair-help-needed/
 | 58  | GND           |                    |                    |
 | 59  | Blue_2        | Screen Blue bit 2  |                    |
 | 60  | Blue_3        | Screen Blue bit 3  |                    |
-| 61  | IRQ6          | TMS/G18 not here   | G3                 |
-| 62  | TDO           | JTAG               | G17                |
-| 63  | TDI           | JTAG               | H17                |
-| 64  | TCK           | JTAG               | H16                |
+| 61  | IRQ6 or FRZ   | BDM                | G3                 |
+| 62  | TDO or DSDO   | JTAG and BDM       | G17                |
+| 63  | TDI or DSDI   | JTAG and BDM       | H17                |
+| 64  | TCK or DSCK   | JTAG and BDM       | H16                |
 | 65  | SRESET        |                    | P2??               |
-| 66  | HRST          | Scope Reset        | N4??               |
+| 66  | HRESE         | Scope Reset        | N4??               |
 | 67  | GND           |                    |                    |
 | 68  | TxD           | Serial             |                    |
 | 69  | RxD           | Serial             |                    |
